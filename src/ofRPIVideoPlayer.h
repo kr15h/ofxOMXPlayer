@@ -1,9 +1,9 @@
 #pragma once
 
-#include "ofMain.h"
+#include "ofTexture.h"
+#include "ofPixels.h"
+#include "ofGraphicsBaseTypes.h"
 #include "ofxOMXPlayer.h"
-#include "ofBaseTypes.h"
-
 #include "ofxOMXPlayerListener.h"
 
 class ofRPIVideoPlayer: public ofBaseVideoPlayer, public ofxOMXPlayerListener
